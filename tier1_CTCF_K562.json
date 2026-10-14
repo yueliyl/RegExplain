@@ -1,0 +1,28 @@
+{
+  "length": 101,
+  "top_n": 20000,
+  "seed": 0,
+  "val_chroms": [
+    "chr8",
+    "chr9"
+  ],
+  "test_chroms": [
+    "chr1",
+    "chr2"
+  ],
+  "peaks": "https://www.encodeproject.org/files/ENCFF042WXA/@@download/ENCFF042WXA.bed.gz",
+  "encode_accession": "ENCFF042WXA",
+  "genome": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz",
+  "counts": {
+    "dinuc": 20000,
+    "pos": 20000
+  },
+  "splits": {
+    "test": 7438,
+    "train": 29388,
+    "val": 3174
+  },
+  "gc_positive_mean": 0.5743945544554456,
+  "gc_dinuc_mean": 0.5743945544554456,
+  "motif": "https://jaspar.elixir.no/api/v1/matrix/MA0139.2.meme"
+}
